@@ -18,7 +18,8 @@
 
 
 module.exports = {
-    publicPath: process.env.NODE_ENV === 'production' ? '/':'./',
+    publicPath: process.env.NODE_ENV === 'production' ? './':'/',
+    assetsDir:'./',
     devServer: {
         port: 8080,
         progress: true,  // 显示打包的进度条
