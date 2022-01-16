@@ -1,19 +1,4 @@
 # vue-note
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Project introduction
+vue全家桶实现的一款在线云笔记，就酱紫。。。

@@ -4,10 +4,14 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "upload": "cd dist; git init; git remote remove origin; git remote add origin git@github.com/youname/hellonote.git; git add . ; git commit -am \"modify\";git push -f origin master && exit 0"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "core-js": "^3.6.5",
+    "element-ui": "^2.15.6",
+    "markdown-it": "^12.3.2",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"
@@ -17,6 +21,7 @@
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-plugin-vuex": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
+    "less-loader": "^4.1.0",
     "vue-template-compiler": "^2.6.11"
   }
 }
