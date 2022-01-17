@@ -135,7 +135,6 @@ export default {
           this.login.isError = false;
           this.login.notice = "";
           this.$router.push({ path: "notebooks" });
-          setTimeout(()=>{location.reload();},0)
         })
         .catch((data) => {
           this.login.isError = true;

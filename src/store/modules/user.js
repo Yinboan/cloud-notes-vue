@@ -38,6 +38,7 @@ const actions = {
         commit('setUser', { user: null })
         console.log(payload)
         router.push(payload)
+        setTimeout(()=>{location.reload();},0)
       })
   },
   checkLogin({ commit }, payload) {
