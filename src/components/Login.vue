@@ -54,6 +54,7 @@
 </template>
 <script>
 import { mapGetters, mapActions, mapMutations } from "vuex";
+import { Message } from 'element-ui'
 
 export default {
   data() {
@@ -134,7 +135,7 @@ export default {
           this.login.isError = false;
           this.login.notice = "";
           this.$router.push({ path: "notebooks" });
-          location.reload();
+          setTimeout(()=>{location.reload();},0)
         })
         .catch((data) => {
           this.login.isError = true;
