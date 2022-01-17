@@ -18,13 +18,9 @@
 
 
 module.exports = {
-    publicPath: process.env.NODE_ENV === 'production' ? './':'/',
-    assetsDir:'./',
+    // publicPath: process.env.NODE_ENV === 'production' ? './':'/',
     devServer: {
-        port: 8080,
         progress: true,  // 显示打包的进度条
-        // open: true,  // 自动打开浏览器
-        compress: true,  // 启动 gzip 压缩
         https: true,
         host: 'localhost',
     }

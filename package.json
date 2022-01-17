@@ -1,7 +1,7 @@
 {
   "name": "vue-note",
   "version": "0.1.0",
-  "homepage": "./",
+  "homepage": "https://yinboan.github.io/cloud-notes-vue/dist",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
