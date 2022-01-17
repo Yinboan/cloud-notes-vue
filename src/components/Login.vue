@@ -108,7 +108,6 @@ export default {
           this.register.isError = false;
           this.register.notice = "";
           this.$router.push({ path: "notebooks" });
-          location.reload();
         })
         .catch((data) => {
           this.register.isError = true;
