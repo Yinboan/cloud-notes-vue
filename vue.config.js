@@ -19,7 +19,7 @@
 
 module.exports = {
     // publicPath: process.env.NODE_ENV === 'production' ? './':'/',
-    assetsDir:'dist/static',
+    assetsDir:'cloud-notes-vue/dist/static',
     devServer: {
         progress: true,  // 显示打包的进度条
         https: true,
